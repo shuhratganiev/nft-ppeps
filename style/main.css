@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paytone+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paytone+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+   
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+font-weight: 700;
+font-family: "Open Sans", sans-serif;
+}
+.btn{
+width: 135px;
+height: 45px;
+border-radius: 12px;
+background: rgb(247, 133, 156);
+border: none;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+color: white;
+}
+.head-down{
+    display: flex;
+   gap: 30.7%;
+   margin-top: 80px;
+
+}
+.img-left{
+    position: relative;
+}
+/* icon */
+.img11{
+    position: absolute;
+    left: 243px;
+    top: 51px;
+    width: 310px;
+height: 212px;
+}
+/* adam */
+.img2{ 
+    position: absolute;
+top: 290px;
+left: 80px;
+}
+/* back */
+.img3{
+    position: absolute;
+top: 380px;
+left: -40px;
+}
+.midle{
+position: relative;
+z-index: 3;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+gap: 23px;
+top: 11.5%;
+right: -10px;
+}
+.div1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   gap: -37px;
+}
+.img10{
+    position: absolute;
+z-index: 1;
+width: 32.99px;
+height: 35.79px;
+top: -10px;
+left: 195px;
+}
+.txt1{
+display: flex;
+flex-direction: column;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+left: 38%;
+top: -80px;
+z-index: 2;
+}
+.txt22{
+display: flex;
+flex-direction: column;
+
+}
+.txt2{
+    
+    color: rgb(34, 34, 34);
+    font-family: Montserrat;
+    font-size: 97px;
+    font-weight: 700;
+}
+.txt21{
+    color: rgb(34, 34, 34);
+    font-family: Montserrat;
+    font-size: 97px;
+    font-weight: 700;
+    top: -10px;
+}
+.txt3{
+    color: rgb(64, 71, 86);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.btn1{
+    width: 125px;
+height: 40px;
+border-radius: 12px;
+background: rgb(247, 133, 156);
+color: white;
+border: none;
+}
+.img-right{
+    position: relative;
+    
+}
+.img-back{
+    position: absolute;
+  
+height: 510.89px;
+    right: 77px;
+    top: 135px;
+    z-index:1 ;
+}
+.img-icon{
+    position: absolute;
+    z-index: 2;
+ right: 340px;
+ top: 505px;
+}
+.img-people{
+    position: absolute;
+    z-index: 3;
+    right:70px ;
+    top: 270px;
+}
+.collection{
+    position: relative;
+ margin-top: 490px;
+}
+.text1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1-img{
+position: absolute;
+left: 660px;
+top: -10px;
+width: 32.99px;
+height: 35.79px;
+}
+.text1-p{
+z-index:1;
+color: rgb(34, 34, 34);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+}
+.text1-h2{
+ color: rgb(34, 34, 34);
+font-family: Montserrat;
+font-size: 65px;
+font-weight: 700;
+}
+.text-cntr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.text-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.t2{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.t3{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.h4{
+    color: rgb(34, 34, 34);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+.t-p{
+    color: rgb(64, 71, 86);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.img-right{
+    right: -80px;
+}
+.img-backround{
+    position: absolute;
+    width: 1440px;
+    height: 137px;
+    margin-top: 27%;
+    left: -0%;
+
+}
+
+.rarity{
+    background-color: rgb(251, 241, 230);
+    margin-top: 190px;
+    width: 1440px;
+height: 3625px;
+}
+.exclusive-text{
+position: relative;
+padding-top: 140px;
+left: 210px;
+
+}
+.exclusive-img{
+position: absolute;
+z-index: 1;
+left: -16px;
+top: 131px;
+}
+.exclusive-p{
+   position: relative;
+   z-index: 2;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+}
+.exclusive-h2{
+ 
+    font-family: Montserrat;
+    font-size: 65px;
+    font-weight: 700;
+}
+.center-people{
+    margin-top: 120px;
+    position: relative;
+    left: 215px;
+
+    width: 979.22px;
+    height: 3209px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.common{
+    display: flex;
+gap: 250px;
+
+
+}
+.common-left{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.divtier1{
+    display: flex;
+    gap: 40px;
+}
+.common-h4{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.tier1{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.common-p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+color: rgb(64, 71, 86);
+}
+
+.uncommon{
+    margin-top: 120px;
+    display: flex;
+gap: 250px;
+
+
+}
+.uncommon-left{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.divtier2{
+    display: flex;
+    gap: 40px;
+}
+.uncommon-h4{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.tier2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.uncommon-p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+color: rgb(64, 71, 86);
+}
+
+.rare{
+    margin-top: 120px;
+    display: flex;
+gap: 250px;
+
+
+}
+.rare-left{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.divtier3{
+    display: flex;
+    gap: 40px;
+}
+.rare-h4{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.tier3{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.rare-p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+color: rgb(64, 71, 86);
+}
+
+.veryrare{
+    margin-top: 120px;
+    display: flex;
+gap: 250px;
+
+
+}
+.veryrare-left{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.divtier3{
+    display: flex;
+    gap: 40px;
+}
+.veryrare-h4{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.tier4{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.veryrare-p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+color: rgb(64, 71, 86);
+}
+
+.legendary{
+    margin-top: 120px;
+    display: flex;
+gap: 250px;
+
+
+}
+.legendary-left{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+.divtier5{
+    display: flex;
+    gap: 40px;
+}
+.legendary-h4{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.tier5{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.legendary-p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+color: rgb(64, 71, 86);
+}
+.backround-down{
+    position: relative;
+    left: 7.6px;
+    margin-top: 134px;
+}
+
+.releases{
+    position: relative;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3442px;
+    width: 1440px;
+}
+.roadmap-img{
+    position: absolute;
+    z-index: 1;
+}
+.roadmap-p{
+    position: relative;
+    z-index: 2;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+
+}
+.roadmap-h3{
+    font-family: Montserrat;
+    font-size: 65px;
+font-weight: 700;
+}
+.cntr-releases{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 80px;
+    width: 979.22px;
+    
+}
+
+.roadmap1{
+ 
+ display: flex;
+ gap: 70px;
+margin-left: 80px;
+}
+.roadmap-left{
+    display: flex;
+    gap: 8px;
+    margin-top: 140px;
+
+}
+.roadmap-imgright{
+    left: 880px;
+   width: 185.12px;
+height: 423.21px;
+}
+.roadmap-imgleft{
+
+    width: 32.99px;
+height: 35.79px;
+
+}
+.roadmap-p2{
+    color: rgb(247, 133, 156);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+margin-top: 6px;
+}
+.roadmap-imgcntr{
+ 
+position: relative;
+    width: 529.04px;
+height: 475.79px;
+}
+.roadmap-textcntr{
+margin-right: 9px;
+    position: absolute;
+    right: 610px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.h5{
+    z-index: 1;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+}
+.h4{
+    z-index: 1;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+.p{
+    z-index: 1;
+    color: rgb(64, 71, 86);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.roadmap-imgright{
+    
+    position: absolute;
+    width: 202px;
+height: 150px;
+right: 850px;
+}
+.roadmap2{
+ 
+    display: flex;
+    gap: 70px;
+   margin-left: 80px;
+   }
+   .roadmap-imgright2{
+    left: 880px;
+   width: 185.12px;
+height: 423.21px;
+}
+
+.roadmap3{
+ 
+    display: flex;
+    gap: 70px;
+   margin-left: 80px;
+   }
+.roadmap-imgcntr3{
+    position: relative;
+        width: 529.04px;
+    height: 475.79px;
+    }
+    
+    .roadmap4{
+ 
+        display: flex;
+        gap: 70px;
+       margin-left: 80px;
+       }
+.roadmap-imgright4{
+    position: relative;
+    z-index: 2;
+    width: 230.13px;
+height: 369.75px;
+}
+.roadmap-imgright4-2{
+    right: 60px;
+    position: absolute;
+    width: 346px;
+height: 344px;
+z-index: 1;
+margin-top: 50px;
+}
+.roadmap5{
+    display: flex;
+    gap: 70px;
+   margin-left: 80px;
+}
+.roadmap6{
+    display: flex;
+    gap: 70px;
+   margin-left: 80px;
+}
+.down{
+    width: 1440px;
+height: 113px;
+margin-left: -230px;
+}
+.team{
+    margin-top: 247px;
+    width: 1440px;
+height: 1287px;
+background: rgb(253, 219, 226);
+}
+.cntr-team{
+    padding-top: 10%;
+position: relative;
+    width: 1440px;
+    height: 1027.41px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ gap: 40px;
+}
+.team-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 150px;
+}
+.team-img{
+    position: relative;
+width: 32.99px;
+height: 35.79px;
+margin-right: 45px;
+margin-top: -10px;
+}
+.team-p{
+    position:absolute ;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+}
+.team-h3{
+    font-family: Montserrat;
+font-size: 65px;
+font-weight: 700;
+}
+.peoplee{
+    width: 979.22px;
+height: 881.41px;
+margin-left: 230px;
+}
+.teamdown{
+    position: absolute;
+    margin-top: 105.0%;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-top: 210px;
+}
+.faq-txt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.faq-img{
+    position: relative;
+margin-right: 35px;
+margin-top: -10px;
+}
+.faq-p{
+    position: absolute;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+}
+.faq-h3{
+    font-family: Montserrat;
+font-size: 65px;
+font-weight: 700;
+}
+.cntr-faq{
+    padding-top: 80px;
+    height: 534px;
+    width: 979.22px;
+   
+}
+.faq-p{
+    color: rgb(34, 34, 34);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+}
+.img-faq{
+
+    width: 343px;
+    height: 345px;
+    margin-right: 80%;
+    margin-top: -50%;
+}
+.faq-down{
+    padding-top: 500px;
+}
+.footer{
+    position: relative;
+    background: rgb(211, 212, 237);
+    width: 1440px;
+height: 441px;
+}
+.cntr-footer{
+   
+    padding-top: 99.91px;
+    margin-left: 230px;
+    width: 979.22px;
+height: 317px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up-h1{
+    font-family: Montserrat;
+font-size: 65px;
+font-weight: 700;
+}
+.up-p{
+    position: relative;
+    z-index: 2;
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+}
+.up-img{
+    position: absolute;
+    margin-left: 870px;
+    z-index: 1;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+.center-left{
+    display: flex;
+    gap: 30px;
+}
+.center-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.center-p{
+    color: rgb(64, 71, 86);
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.img-footerr{
+    position: absolute;
+    width: 173px;
+height: 213px;
+margin-top: -23%;
+margin-left: 70px;
+}
+.down-text{
+    display: flex;
+gap: 30px;
+margin-left: 230px;
+}
+.down-p{
+    color: rgb(64, 71, 86);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+}
